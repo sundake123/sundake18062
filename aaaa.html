@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- 设置字符编码，设置字符集 -->
+		<meta charset="UTF-8">
+		<title>超链接</title>
+	</head>
+	<body>	
+		<form action="success.html">
+			学历：
+			<select name="degree" size="4" multiple="multiple">
+				<option value="0">---请选择学历-</option>
+				<option value="1">初中</option>
+				<option value="2">高中</option>
+				<!-- 如果省略value，则默认使用option的文本内容作为value -->
+				<option >大专</option>
+				<option value="4">本科</option>
+				<option value="5">研究生</option>
+			</select>
+			<br>
+			城市：
+			<select name="city" >
+				<optgroup label="江苏">
+					<option value="nanjing">南京</option>
+					<option value="wuxi">无锡</option>
+					<option value="suzhou">苏州</option>
+					<option value="taizhou">泰州</option>
+					<option value="xuzhou">徐州</option>
+				</optgroup>
+				<optgroup label="广东">
+					<option value="guangzhou">广州</option>
+					<option value="shenzhen">深圳</option>
+					<option value="zhuhai">珠海</option>
+					<option value="dongguan">东莞</option>
+					<option value="foshan">佛山</option>
+				</optgroup>
+				
+			</select>
+			<br>
+			服务协议：
+			<textarea name="protocol"  cols="30" rows="10" readonly>
+				请遵守交通规则请遵守交通规则请遵守交通规则请遵守交通规则请遵守交通规则请遵守交通规则请遵守交通规则请遵守交通规则请遵守交通规则请遵守交通规则请遵守交通规则请遵守交通规则请遵守交通规则请遵守交通规则请遵守交通规则请遵守交通规则请遵守交通规则请遵守交通规则请遵守交通规则请遵守交通规则请遵守交通规则请遵守交通规则请遵守交通规则请遵守交通规则请遵守交通规则请遵守交通规则请遵守交通规则请遵守交通规则请遵守交通规则请遵守交通规则请遵守交通规则请遵守交通规则请遵守交通规则请遵守交通规则请遵守交通规则
+			</textarea>
+
+			<input type="submit" value="提交">
+		</form>
+	</body>
+</html>
